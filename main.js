@@ -1,12 +1,13 @@
 var sentimood = new Sentimood();
-var analysis = sentimood.analyze('Node is the best but i am sad');
-var positivity = sentimood.positivity('Python is excellent');
-var negativity = sentimood.negativity('PHP is bad');
-console.log(analysis);
+// var analysis = sentimood.analyze('Node is the best but i am sad');
+// var positivity = sentimood.positivity('Python is excellent');
+// var negativity = sentimood.negativity('PHP is bad');
+// console.log(analysis);
 
-var entry = document.getElementById('entry-text').value;
-var an2 = sentimood.analyze(entry);
-console.log(an2)
+// var entry = document.getElementById('entry-text').value;
+// var an2 = sentimood.analyze(entry);
+// console.log(an2)
+
 
 
 var plants = []; //Define array plant gif frames
@@ -20,6 +21,7 @@ for (i = 1; i <= 10; i++) {
 var score = 0;
 var currentFrame = 1;
 var frame = plants[currentFrame];
+
 
 $(document).ready(function(){
 

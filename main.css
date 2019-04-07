@@ -1,22 +1,81 @@
 h2{
-    font-family: sans-serif;
+    font-size: 2em;
+    font-family: 'Circular Std';
     position: relative;
     display: inline-block;
+    color: #03630C;
+}
+h3{
+    font-family: 'Circular Std';
+    position: relative;
+    display: inline-block;
+    color: #03630C;
+    font-size: 12px;
 }
 
 textarea {
+    /* padding-left: 60px;
+
+    font-family: 'Inconsolata', monospace !important;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
     width: 100%;
-    height: 100%;
+    height: 600px;
+
+    background: url(http://i.stack.imgur.com/ynxjD.png) repeat-y;
+    font: 14px;
+    line-height: 45px;
+    padding: 2px 10px;
+    border: solid 1px #ddd; */
+    font-family: 'Inconsolata', monospace !important;
+    border: none;
+    width: 100%;
+    height: 350px;
+    line-height: 30px;
+    background-color: #FFFDFA;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none;
+
 }
 
+.everything{
+    margin: 0 auto;
+    max-width: 1200px;
+    max-height: 1000px;
+    padding: 60px;
+    padding-top: 90px;
+        font-size: 12px;
+
+
+}
 .main-container{
-    width: 100%;
     display: inline-block;
 
+    /* Rectangle */
+
+    position: absolute;
+    width: 1100px;
+    height: 500px;
+    /* left: 108px;
+    top: 424px; */
+    float: center;
+    margin-top: 15px;
+    border: 5px solid #FFA95A;
+    box-sizing: border-box;
+    border-radius: 19px;
+    border-left: -100px;
+    font-size: 16px;
+    line-height: 30px;
+    
 }
 
 .entry-container{
@@ -24,14 +83,42 @@ textarea {
     border-left: 30px;
     float: left;
     width: 50%;
+
 }
 
 .display-container {
-    display: inline-block;
+    float: right;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
     width: 50%;
+    height: 490px;
+    border-left: 5px solid #FFA95A;
+
+}
+
+.display-container p{
+    font-size: 14px;
+    width: 200px;
 }
 
 #plant-image{
-    width: 50%;
-    height: 50%;
+    padding-top: 45px;
+    width: 65%;
+    height: 65%  ;
+}
+
+.welcome-text{
+    transition: opacity 2s ease-in;
+
+    border: 5px solid black;
+}
+
+#daily-planter{
+    height: 15%;
+    width: 15%;
+}
+
+.header-container{
+    padding-top: 15px;
 }
