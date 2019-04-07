@@ -1,5 +1,7 @@
-h1{
+h2{
     font-family: sans-serif;
+    position: relative;
+    display: inline-block;
 }
 
 textarea {
@@ -7,10 +9,29 @@ textarea {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-    width: 50%;
-    height: 75%;
+    width: 100%;
+    height: 100%;
+}
+
+.main-container{
+    width: 100%;
+    display: inline-block;
+
 }
 
 .entry-container{
     padding: 30px;
+    border-left: 30px;
+    float: left;
+    width: 50%;
+}
+
+.display-container {
+    display: inline-block;
+    width: 50%;
+}
+
+#plant-image{
+    width: 50%;
+    height: 50%;
 }
