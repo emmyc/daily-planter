@@ -1,4 +1,8 @@
-var Sentiment = require('node_modules/sentiment');
+
+require (['sentiment'], function(sentiment){
 var sentiment = new Sentiment();
 var result = sentiment.analyze('Cats are stupid.');
 console.dir(result);
+});
+
+
